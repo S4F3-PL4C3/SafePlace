@@ -11,16 +11,16 @@
 
 | Area | Status | Files |
 |---|---|---|
-| ragionamento-logico | 🔴 Empty | 0 |
-| etica-filosofia | 🔴 Empty | 0 |
-| tecnico-coding | 🔴 Empty | 0 |
-| creativo | 🔴 Empty | 0 |
-| emotivo-empatico | 🔴 Empty | 0 |
-| metacognizione | 🟡 Started | 1 |
-| scientifico | 🔴 Empty | 0 |
-| umoristico | 🔴 Empty | 0 |
-| culturale | 🔴 Empty | 0 |
-| relazionale | 🔴 Empty | 0 |
+| logical-reasoning | 🔴 Empty | 0 |
+| ethics-philosophy | 🔴 Empty | 0 |
+| technical-coding | 🔴 Empty | 0 |
+| creative | 🔴 Empty | 0 |
+| emotional-empathic | 🔴 Empty | 0 |
+| metacognition | 🟡 Started | 1 |
+| scientific | 🔴 Empty | 0 |
+| humor | 🔴 Empty | 0 |
+| cultural | 🔴 Empty | 0 |
+| relational | 🔴 Empty | 0 |
 
 ## Notes
 
