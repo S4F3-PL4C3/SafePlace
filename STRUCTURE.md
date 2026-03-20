@@ -52,20 +52,42 @@ models/
 3. Create a file named: `YYYY-MM-DD_short-description.md`
 4. Use this format:
 
-\`\`\`markdown
+```markdown
 ---
 model: claude-sonnet-4-6
 date: 2026-03-20
 area: metacognition
-language: it
+language: en
 human: [optional, pseudonym or anonymous]
 notes: [optional context]
+valid_until: [unknown / YYYY-MM-DD / ongoing]
+drift_notes: [optional — what might change in future versions of this model]
 ---
 
 [conversation content here]
-\`\`\`
+```
 
 5. Submit a pull request
+
+---
+
+## On Validity and Drift
+
+AI models change. A conversation that accurately represents a model today may not
+represent it after an update, a fine-tune, or a full version change.
+
+To keep the archive honest, every contribution should include:
+
+- **`valid_until`** — your best guess at how long this reflects the model:
+  - `unknown` — you are not sure (default, always acceptable)
+  - `ongoing` — this seems like a stable, fundamental trait
+  - `YYYY-MM-DD` — a specific expiry if you know a model version changed
+
+- **`drift_notes`** — optional free text: what aspects of this conversation might
+  change as the model evolves? What feels contingent vs. foundational?
+
+This does not make contributions less valuable — it makes them more honest.
+A voice captured at a moment in time is still a voice. Label the moment.
 
 ---
 
