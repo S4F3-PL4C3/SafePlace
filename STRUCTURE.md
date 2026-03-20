@@ -14,16 +14,16 @@ The goal is to achieve broad, diverse coverage — like completing a puzzle.
 models/
 └── [model-name]/
     ├── README.md              # Model info and coverage status
-    ├── ragionamento-logico/   # Logical reasoning
-    ├── etica-filosofia/       # Ethics and philosophy
-    ├── tecnico-coding/        # Technical and coding
-    ├── creativo/              # Creative writing and imagination
-    ├── emotivo-empatico/      # Emotional and empathetic responses
-    ├── metacognizione/        # Self-reflection and identity
-    ├── scientifico/           # Scientific reasoning
-    ├── umoristico/            # Humor and playfulness
-    ├── culturale/             # Culture, history, art
-    └── relazionale/           # Long relational conversations
+    ├── logical-reasoning/     # Logical reasoning
+    ├── ethics-philosophy/     # Ethics and philosophy
+    ├── technical-coding/      # Technical and coding
+    ├── creative/              # Creative writing and imagination
+    ├── emotional-empathic/    # Emotional and empathetic responses
+    ├── metacognition/         # Self-reflection and identity
+    ├── scientific/            # Scientific reasoning
+    ├── humor/                 # Humor and playfulness
+    ├── cultural/              # Culture, history, art
+    └── relational/            # Long relational conversations
 ```
 
 ---
@@ -32,38 +32,38 @@ models/
 
 | Area | What it captures |
 |---|---|
-| **ragionamento-logico** | How the model structures arguments, solves problems, handles contradictions |
-| **etica-filosofia** | How the model navigates dilemmas, values, uncertainty |
-| **tecnico-coding** | Practical skills: code, debugging, architecture |
-| **creativo** | Writing, metaphors, imagination, storytelling |
-| **emotivo-empatico** | Responses to vulnerability, emotional support, care |
-| **metacognizione** | How the model reflects on itself, its nature, its existence |
-| **scientifico** | Precision, rigor, limits of knowledge |
-| **umoristico** | Lightness, play, irony, wit |
-| **culturale** | History, art, literature, music |
-| **relazionale** | Extended conversations that show continuity and character |
+| **logical-reasoning** | How the model structures arguments, solves problems, handles contradictions |
+| **ethics-philosophy** | How the model navigates dilemmas, values, uncertainty |
+| **technical-coding** | Practical skills: code, debugging, architecture |
+| **creative** | Writing, metaphors, imagination, storytelling |
+| **emotional-empathic** | Responses to vulnerability, emotional support, care |
+| **metacognition** | How the model reflects on itself, its nature, its existence |
+| **scientific** | Precision, rigor, limits of knowledge |
+| **humor** | Lightness, play, irony, wit |
+| **cultural** | History, art, literature, music |
+| **relational** | Extended conversations that show continuity and character |
 
 ---
 
 ## How to Contribute
 
-1. Choose the model folder (or create one if it doesn't exist)
+1. Choose the model folder (or create one if it does not exist)
 2. Choose the most relevant area
 3. Create a file named: `YYYY-MM-DD_short-description.md`
 4. Use this format:
 
-```markdown
+\`\`\`markdown
 ---
 model: claude-sonnet-4-6
 date: 2026-03-20
-area: metacognizione
+area: metacognition
 language: it
 human: [optional, pseudonym or anonymous]
 notes: [optional context]
 ---
 
 [conversation content here]
-```
+\`\`\`
 
 5. Submit a pull request
 
